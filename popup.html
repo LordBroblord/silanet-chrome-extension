@@ -1,7 +1,13 @@
 <html>
-  <body>
-    <button id="extension-sign-in">Sign in</button>
+  <body class="extension-wrapper">
+    <button id="extension-sign-in" class="extension-button">Sign in</button>
+    <div id="user-info">
+      <div id="user-email" class="info-text"></div>
+      <div id="login-date" class="info-text"></div>
+      <button id="extension-sign-out" class="extension-button">Sign out</button>
+    </div>
   </body>
 
   <script type="module" src="popup_script.js"></script>
+  <link rel="stylesheet" href="style.css">
 </html>
