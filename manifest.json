@@ -10,7 +10,7 @@
   "oauth2": {
     "client_id": "93877476821-is1smtgb809gkb131hsla4t15d85vu8m.apps.googleusercontent.com",
     "scopes": [
-      "https://www.googleapis.com/auth/contacts.readonly"
+      "https://www.googleapis.com/auth/userinfo.email"
     ]
   },
   "permissions": [
