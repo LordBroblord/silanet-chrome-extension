@@ -1,10 +1,19 @@
 {
   "manifest_version": 3,
   "name": "Silanet log in",
-  "description": "Base Level Extension",
-  "version": "1.0",
+  "description": "Extension to log into Google",
+  "version": "0.1",
   "action": {
     "default_popup": "popup.html",
     "default_icon": "cat_icon.png"
-  }
+  },
+  "oauth2": {
+    "client_id": "93877476821-is1smtgb809gkb131hsla4t15d85vu8m.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/contacts.readonly"
+    ]
+  },
+  "permissions": [
+    "identity"
+  ]
 }
