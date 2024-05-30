@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Silanet log in",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "cat_icon.png"
+  }
+}
